@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    padding: 100px 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+.row{
+    display: flex;
+}
+.width-3 {
+    margin: 10px;
+    padding: 50px 25px;
+    background: #EDF5F6;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 3px;
+}
+.width-5 {
+    text-align: center;
+    width: 20%;
+    padding: 30px 5px 30px 5px;
+    margin: 12px;
+    border-radius: 5px;
+    background: #FAFAFA;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-bottom: 30px;
+}
+img{
+    width: 100%;
+}
+.icon {
+    width: 100px;
+    margin-bottom: 30px;
+}
+P{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+}
+h1, h2, h3, h4{
+    font-family: 'Inter', sans-serif;
+}
+h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 80px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+input[type=submit], .button{
+    background-color: #FF5959;
+    padding:15px 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+}
+a.button{
+    text-decoration: none;
+    display: inline-block;
+    
+    background-color: #FF5959;
+}
+
+
+header{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(images/donation8.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.lets-help {
+    padding: 300px 0;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.lets-help p, .lets-help h1{
+    text-align: center;
+    color: #ffffff;
+}
+.lets-help p{
+    margin:10px 0 20px 0;
+}
+
+
+
+.donate-today .row, .donate-amount, .get-update {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.donate-amount {
+    width: 55%;
+}
+.donate-amount input[type=number] {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #e2dada;
+}
+.width-5 h3 {
+    font-size: 30px;
+    color: #707070;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+
+.family-shelter{
+    background-color: #EDF5F6;
+}
+.family-food{
+    background-color: #FFEEEE;
+}
+.child-education{
+    background-color: #FFF4D6;
+}
+
+.get-update {
+    background-color: #FFF4D6;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+input[type="email"] {
+    padding: 15px 0 15px 15px;
+    line-height: 23px;
+    margin-right: -5px;
+    font-size: 20px;
+    border-radius: 5px 0 0px 5px;
+    border: none;
+    background: #D9D9D9;
+}
+
+.get-update input[type=submit]{
+    border-radius: 0 5px 5px 0;
+}
