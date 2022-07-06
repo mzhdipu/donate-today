@@ -2,6 +2,47 @@
     margin: 0;
     padding: 0;
 }
+h1, h2, h3, h4{
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+}
+h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 80px;
+}
+P{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+}
+img{
+    width: 100%;
+}
+.icon {
+    width: 100px;
+    margin-bottom: 30px;
+}
+a.button{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #FF5959;
+}
+a.button:hover{
+    background-color: #db3a3a;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/* =========================================
+        SECTION STYLE STARTED 
+=========================================*/
 section{
     padding: 100px 0;
 }
@@ -14,72 +55,92 @@ section{
     display: flex;
 }
 .width-3 {
-    margin: 10px;
-    padding: 50px 25px;
-    background: #EDF5F6;
+    margin: 20px;
+    padding: 50px 40px;
+    background: rgb(237, 245, 246);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 3px;
 }
 .width-5 {
     text-align: center;
     width: 20%;
-    padding: 30px 5px 30px 5px;
+    padding: 45px 10px 30px 10px;
     margin: 12px;
     border-radius: 5px;
     background: #FAFAFA;
     border: none;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     margin-bottom: 30px;
+    border: 2px solid transparent;
 }
-img{
-    width: 100%;
+.width-5:hover{
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
 }
-.icon {
-    width: 100px;
-    margin-bottom: 30px;
-}
-P{
-    font-family: 'Poppins', sans-serif;
+/*  SECTION STYLE ENDED */
+
+
+
+/* =========================================
+            FORM STYLE STARTED  
+========================================= */
+input{
     font-size: 18px;
-    line-height: 28px;
-    color: #707070;
-}
-h1, h2, h3, h4{
-    font-family: 'Inter', sans-serif;
-}
-h2{
-    font-size: 45px;
-    margin-bottom: 20px;
-}
-
-h1{
-    font-size: 80px;
-}
-
-.section-title {
-    text-align: center;
-    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
 }
 input[type=submit], .button{
     background-color: #FF5959;
     padding:15px 30px;
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     border: none;
     color: #ffffff;
     border-radius: 5px;
 }
+input[type=submit]:hover{
+    background-color: #db3a3a;
+    cursor: pointer;
+}
+input[type="email"] {
+    padding: 16px 0 15px 15px;
+    line-height: 20px;
+    margin-right: -7px;
+    border-radius: 5px 0 0px 5px;
+    border: none;
+    background: #D9D9D9;
+}
+input[type=number]::-webkit-input-placeholder ,
+input[type=email]::-webkit-input-placeholder {/* Chrome/Opera/Safari/Edge */
+	font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+input[type=number]::-ms-input-placeholder ,
+input[type=email]::-ms-input-placeholder { /* Microsoft Edge */
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+input[type=email]::-webkit-input-placeholder{
+    text-align: left;
+}
+
 input:focus{
-	border-color: transparent;
+    outline: none;
 }
-a.button{
-    text-decoration: none;
-    display: inline-block;
-    
-    background-color: #FF5959;
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
+/*  FORM STYLE ENDED  */
 
+
+/* =========================================
+        HEADER SECTION STYLE STARTED 
+=========================================*/
 header{
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(images/donation8.jpg);
     background-position: center center;
@@ -100,13 +161,19 @@ header{
 .lets-help p{
     margin:10px 0 20px 0;
 }
+/* HEADER SECTION STYLE ENDED */
 
 
-
+/* =========================================
+    DONATE TODAY SECTION STYLE STARTED 
+=========================================*/
 .donate-today .row, .donate-amount, .get-update {
     width: 60%;
     margin: 0 auto;
     text-align: center;
+}
+.width-3 h3{
+    margin-bottom: 15px;
 }
 .donate-amount {
     width: 55%;
@@ -116,7 +183,9 @@ header{
     width: 100%;
     margin-bottom: 10px;
     border: none;
+    line-height: 2em;
     border-bottom: 1px solid #e2dada;
+    text-align: center;
 }
 .width-5 h3 {
     font-size: 30px;
@@ -124,8 +193,15 @@ header{
     text-transform: uppercase;
     margin-bottom: 15px;
 }
+.width-5:hover.width-5 h3{
+    color: #FF5959;
+}
+/* DONATE TODAY SECTION STYLE ENDED */
 
 
+/* =========================================
+    OUR DONATE PLAN SECTION STYLE STARTED 
+=========================================*/
 .family-shelter{
     background-color: #EDF5F6;
 }
@@ -141,24 +217,31 @@ header{
     padding: 50px;
     border-radius: 15px;
 }
-
-input[type="email"] {
-    padding: 15px 0 15px 15px;
-    line-height: 23px;
-    margin-right: -5px;
-    font-size: 20px;
-    border-radius: 5px 0 0px 5px;
-    border: none;
-    background: #D9D9D9;
-}
-
 .get-update input[type=submit]{
     border-radius: 0 5px 5px 0;
 }
+/* OUR DONATE PLAN SECTION STYLE ENDED */
 
 
+/* =========================================
+    GALLERY SECTION STYLE STARTED 
+=========================================*/
 
+.gallery.row div {
+    width: 30%;
+    margin: 15px;
+}
+.gallery img{
+    width: 100%;
+    height: 300px;
+    margin: 15px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
 
+/*=========================================
+        FOOTER SECTION STARTED 
+=========================================*/
 footer{
     background-color: #0B0D17;
     padding: 50px 0;
@@ -174,3 +257,9 @@ footer h4 {
 small{
     color: #ffffff;
 }
+/* FOOTER SECTION ENDED */
+
+
+
+
+
