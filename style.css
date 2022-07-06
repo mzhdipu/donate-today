@@ -55,6 +55,7 @@ section{
     display: flex;
 }
 .width-3 {
+    width: 30%;
     margin: 20px;
     padding: 50px 40px;
     background: rgb(237, 245, 246);
@@ -172,9 +173,6 @@ header{
     margin: 0 auto;
     text-align: center;
 }
-.width-3 h3{
-    margin-bottom: 15px;
-}
 .donate-amount {
     width: 55%;
 }
@@ -202,11 +200,15 @@ header{
 /* =========================================
     OUR DONATE PLAN SECTION STYLE STARTED 
 =========================================*/
-.family-shelter{
-    background-color: #EDF5F6;
+.width-3 h3{
+    font-size: 25px;
+    margin-bottom: 15px;
 }
 .family-food{
     background-color: #FFEEEE;
+}
+.family-shelter{
+    background-color: #EDF5F6;
 }
 .child-education{
     background-color: #FFF4D6;
@@ -214,9 +216,13 @@ header{
 
 .get-update {
     background-color: #FFF4D6;
-    padding: 50px;
+    padding: 85px 50px;
     border-radius: 15px;
 }
+.get-update input[type=email]{
+    width: 50%;
+}
+
 .get-update input[type=submit]{
     border-radius: 0 5px 5px 0;
 }
@@ -255,7 +261,8 @@ footer h4 {
     margin-bottom: 25px;
 }
 small{
-    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
 }
 /* FOOTER SECTION ENDED */
 
