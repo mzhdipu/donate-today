@@ -220,7 +220,7 @@ header{
     border-radius: 15px;
 }
 .get-update input[type=email]{
-    width: 50%;
+    width: 40%;
 }
 
 .get-update input[type=submit]{
